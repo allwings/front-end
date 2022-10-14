@@ -3,7 +3,10 @@
 ---
 1. download **VS Code**  
 2. download **nvm-windows** (for Windows10)  
-    nvm version  
+    ```
+    nvm version 
+    ```
+    
     > https://zhuanlan.zhihu.com/p/546506752  
     ```
     nvm list：列出已经安装的 Node.js 的版本号，正在使用的版本前标有星号;  

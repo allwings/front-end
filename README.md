@@ -12,3 +12,6 @@
     nvm use <version>：使用指定版本的 Node.js;  
     nvm current：列出当前使用的 Node.js 的版本(也可以使用 nvm list)  
     ```
+3. download nrm  
+    nrm是一个npm源管理库  
+    

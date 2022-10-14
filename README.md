@@ -13,5 +13,14 @@
     nvm current：列出当前使用的 Node.js 的版本(也可以使用 nvm list)  
     ```
 3. download nrm  
-    nrm是一个npm源管理库  
+    安装 NRM  
+    NRM 是一个 NPM 源管理库  
+    ```
+    npm i nrm -g
+    ```
+4. 安装 Yarn  
+    推荐使用 Yarn 替换 NPM  
+    ```
+    npm i yarn -g  
+    ```
     

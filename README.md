@@ -35,4 +35,12 @@
     -choose vue + ts  
 #### run:
     yarn / yarn dev  
-ing...
+ing...  
+### package.json  
+记载依赖和指令   
+      "scripts": {  
+        "dev": "vite",  
+        "build": "vite build",  
+        "preview": "vite preview"  
+      },  
+dd

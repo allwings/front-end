@@ -26,11 +26,11 @@
     yarn -v: 检查安装
     ```    
 ---
-##创建第一个web应用##  
-Vue-cli使用webpack => vite  
-Javascript是Typescript的子集 => TS  
+### 创建第一个web应用  
+    Vue-cli使用webpack => vite  
+    Javascript是Typescript的子集 => TS  
     ```
-    yarn create vite xxx  
+    yarn create vite xxx   
     -choose vue + ts
-    ```
+    ```  
 ing...

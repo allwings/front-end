@@ -30,6 +30,8 @@
     > Vue-cli使用webpack => vite  
     > Javascript是Typescript的子集 => TS   
 steps:  
+    ```
     yarn create vite xxx  
-    -choose vue + ts   
+    -choose vue + ts  
+    ```  
 ing...

@@ -43,14 +43,15 @@
         "preview": "vite preview"  
       },
 ---
-npm run dev     是vue-cli2.0版本使用的
-npm run serve  是vue-cli3.0版本使用的
-dev build serve?
-在我们运行一些 vue 项目的时候，输入npm run serve或者 npm run dev的其中一个时，系统会报错，然后我们就特别好奇，npm run serve 和 npm run dev 到底有什么区别。  
-其实 npm run dev 或者是 npm run serve 等 npm run xxx 并不是一定要这么写。  
-npm run XXX是执行配置在 package.json 中的脚本  
-npm run xxx 中的 xxx 可以理解为键值对的 key，实际上 run 的是在 package.json 里面 scripts 配置的 value；  
-npm run xxx，并不是你想运行就运行的，只有在 package.json scripts 配置了，你才能 run 的，所以不是所有的项目都能 npm run dev/build。  
-要了解这些命令做了什么，就要去scripts中看具体执行的是什么代码。  
+#### dev build serve?
+    npm run dev     是vue-cli2.0版本使用的
+    npm run serve  是vue-cli3.0版本使用的
+    在我们运行一些 vue 项目的时候，输入npm run serve或者 npm run dev的其中一个时，系统会报错，然后我们就特别好奇，npm run serve 和 npm run dev 到底有什么区别  
+    其实 npm run dev 或者是 npm run serve 等 npm run xxx 并不是一定要这么写  
+    npm run XXX是执行配置在 package.json 中的脚本  
+    npm run xxx 中的 xxx 可以理解为键值对的 key，实际上 run 的是在 package.json 里面 scripts 配置的 value  
+    npm run xxx，并不是你想运行就运行的，只有在 package.json scripts 配置了，你才能 run 的，所以不是所有的项目都能 npm run dev/build  
+    要了解这些命令做了什么，就要去scripts中看具体执行的是什么代码  
 ---
-yarn add axios --save
+    yarn add axios --save
+    yarn add vue-router --save

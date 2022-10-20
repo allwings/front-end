@@ -36,12 +36,12 @@
 #### run:
     yarn / yarn dev   
 ### package.json  
-记载依赖和指令   
-      "scripts": {  
-        "dev": "vite",  
-        "build": "vite build",  
-        "preview": "vite preview"  
-      },
+    记载依赖和指令   
+          "scripts": {  
+            "dev": "vite",  
+            "build": "vite build",  
+            "preview": "vite preview"  
+           },
 ---
 #### dev build serve?
     npm run dev     是vue-cli2.0版本使用的

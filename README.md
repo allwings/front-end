@@ -26,14 +26,14 @@
     yarn -v: 检查安装
     ```    
 ---
-### 创建第一个web应用  
+## 创建第一个web应用  
      > Vue-cli使用webpack => vite  
      > Javascript是Typescript的子集 => TS   
-#### steps:  
+### steps:  
     yarn create vite xxx  
     ---
     -choose vue + ts  
-#### run:
+### run:
     yarn / yarn dev   
 ### package.json  
     记载依赖和指令   
@@ -43,7 +43,7 @@
             "preview": "vite preview"  
            },
 ---
-#### dev build serve?
+### dev build serve?
     npm run dev     是vue-cli2.0版本使用的
     npm run serve  是vue-cli3.0版本使用的
     在我们运行一些 vue 项目的时候，输入npm run serve或者 npm run dev的其中一个时，系统会报错，然后我们就特别好奇，npm run serve 和 npm run dev 到底有什么区别  

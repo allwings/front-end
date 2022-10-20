@@ -53,4 +53,4 @@ npm run xxx 中的 xxx 可以理解为键值对的 key，实际上 run 的是在
 npm run xxx，并不是你想运行就运行的，只有在 package.json scripts 配置了，你才能 run 的，所以不是所有的项目都能 npm run dev/build。  
 要了解这些命令做了什么，就要去scripts中看具体执行的是什么代码。  
 ---
-
+yarn add axios --save

@@ -34,13 +34,14 @@
     ---
     -choose vue + ts  
 #### run:
-    yarn / yarn dev  
-ing...  
+    yarn / yarn dev   
 ### package.json  
 记载依赖和指令   
       "scripts": {  
         "dev": "vite",  
         "build": "vite build",  
         "preview": "vite preview"  
-      },  
-dd
+      },
+    ---
+    一般在 vue 3.x 的时候用 npm run serve,vue2.x项目运行的时候用到 npm  run dev，  
+    dev是vue cli2的默认执行命令，serve是vue cli4的默认执行命令

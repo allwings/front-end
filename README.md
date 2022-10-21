@@ -32,10 +32,12 @@
 ### a. 使用vite构建项目  
 > 使用 vite 不仅可以创建 vue 的项目，而且可以创建 react 等项目，只是需要手动安装第三方插件  
 > 构建项目：建立项目的运行环境，需要手动安装插件  
+
     yarn create vite xxx  
     -（choose vue + ts）  
 ### b. 使用create-vue构建项目
 > 脚手架：创建项目，选择性安装需要的插件，指定统一的风格，生成demo  
+
     yarn create vue
 ### **运行项目**
     1. cd xxx

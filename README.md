@@ -43,6 +43,7 @@
     1. cd xxx
     2. yarn install
     3. yarn dev
+---
 ### 文件：package.json  
     记载依赖和指令   
           "scripts": {  
@@ -50,7 +51,7 @@
             "build": "vite build",  
             "preview": "vite preview"  
            },
----
+
 ### 指令的选择：dev build serve?
     npm run dev     是vue-cli2.0版本使用的
     npm run serve  是vue-cli3.0版本使用的

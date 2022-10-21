@@ -29,17 +29,15 @@
 ## 创建第一个web应用  
 > Vue-cli使用webpack => vite  
 > Javascript是Typescript的子集 => TS   
-### a. 使用vite构建过程  
+### a. 使用vite构建项目  
     yarn create vite xxx  
-    ---
-    -choose vue + ts  
-### a. 运行项目
-    yarn / yarn dev   
+    -（choose vue + ts）  
 ### b. 使用create-vue构建项目
     yarn create vue
-### b. 运行项目
-    yarn install
-    yarn dev
+### b. **运行项目**
+    1. cd xxx
+    2. yarn install
+    3. yarn dev
 ### 文件：package.json  
     记载依赖和指令   
           "scripts": {  

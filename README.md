@@ -69,4 +69,6 @@
 > [export import 语法](https://www.jianshu.com/p/541256d8abb3)  
 > [JS之DOM是什么](https://www.jianshu.com/p/18461e5f6407)
 
+创建一个组件-export的props定义数据-在调用的vue里import-export的components里注册-在tamplate标签里使用  
+
 ....

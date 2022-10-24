@@ -74,6 +74,11 @@
 - 添加task：还是emit 用了form的submit  
 - 点击右上角按钮切换显示：基于app.vue的属性->子组件 复习  
 
+- 与后端交互在函数里运行-加上async和await  
+- 在vue.config.ts里把请求路径的http头定义好，在函数里用代号  
+- 网页路由在-router 下的index.ts里，routes数组就是网站的各个路由页面-在main.ts里import router-在ap.vue里加入<router-view>-在footer页面里不用<a>, 用<router-link>
+- 
+
 > [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/typings/migrating.html#%E5%87%8F%E5%B0%91%E9%94%99%E8%AF%AF)
 
 ....

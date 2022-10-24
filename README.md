@@ -69,6 +69,8 @@
 > [export import 语法](https://www.jianshu.com/p/541256d8abb3)  
 > [JS之DOM是什么](https://www.jianshu.com/p/18461e5f6407)
 
+> [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/typings/migrating.html#%E5%87%8F%E5%B0%91%E9%94%99%E8%AF%AF)
+
 - 根据数据显示在组件上：创建一个组件-export的props定义数据-在调用的vue里import-export的components里注册-在tamplate标签里使用  
 - 删除按钮和双击切换reminder状态：子组件emit-上一层组件@xxx捕捉，注册emit-调用相关数据  
 - 添加task：还是emit 用了form的submit  
@@ -76,14 +78,8 @@
 
 - 与后端交互在函数里运行-加上async和await  
 - 在vue.config.ts里把请求路径的http头定义好，在函数里用代号  
-- 网页路由在-router 下的index.ts里，routes数组就是网站的各个路由页面-在main.ts里import router-在ap.vue里加入<router-view>-在footer页面里不用<a>, 用<router-link>
-- 
+- 网页路由在-router 下的index.ts里，routes数组就是网站的各个路由页面-在main.ts里import router-在app.vue里加入<router-view>-在footer页面里不用<a>, 用<router-link>//router-view会将props传递到各个view上？！  
 
-> [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/typings/migrating.html#%E5%87%8F%E5%B0%91%E9%94%99%E8%AF%AF)
-
-....
 ---
     npm run build  //build for prodiction  -dist folder
     npm serve   //deploy dist folder  
-//
-    

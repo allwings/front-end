@@ -70,6 +70,8 @@
 > [JS之DOM是什么](https://www.jianshu.com/p/18461e5f6407)
 
 创建一个组件-export的props定义数据-在调用的vue里import-export的components里注册-在tamplate标签里使用  
+子组件emit-上一层组件@xxx捕捉，注册emit-调用相关数据  
+q
 
 > [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/typings/migrating.html#%E5%87%8F%E5%B0%91%E9%94%99%E8%AF%AF)
 

@@ -77,3 +77,8 @@
 > [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/typings/migrating.html#%E5%87%8F%E5%B0%91%E9%94%99%E8%AF%AF)
 
 ....
+---
+    npm run build  //build for prodiction  -dist folder
+    npm serve   //deploy dist folder  
+//
+    

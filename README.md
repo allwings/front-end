@@ -14,7 +14,7 @@
     ---
     node -v: 检查安装
     ```
-3. 安装 **NRM**  
+3. 安装 **NRM**(非必要)  
     NRM 是一个 NPM 源管理库  
     ```
     npm i nrm -g
@@ -24,7 +24,8 @@
     ```
     npm i yarn -g  
     yarn -v: 检查安装
-    ```    
+    ```  
+    > [yarn 命令在power shell无法执行](https://www.jianshu.com/p/8963e6f80e67)  
 ---
 ## 创建第一个web应用  
 > Vue-cli使用webpack => vite  
